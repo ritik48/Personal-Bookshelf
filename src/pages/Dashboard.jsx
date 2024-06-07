@@ -29,9 +29,6 @@ function Dashboard() {
     }, [bookFetching, limit, booksData]);
 
     const books = booksData?.docs;
-    console.log(booksData);
-
-    // if (bookFetching) return null;
 
     return (
         <div className="mt-5">
